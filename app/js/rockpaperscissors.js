@@ -78,7 +78,7 @@ function playToFive() {
     var winner;
     var round = 1; // For console logs
     
-    while (playerWins < 2 && computerWins < 2) {
+    while (playerWins < 5 && computerWins < 5) {
         console.log("");
         console.log("**************");
         console.log("Round Number", round);
